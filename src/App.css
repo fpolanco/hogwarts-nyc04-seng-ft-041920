@@ -1,6 +1,8 @@
 .App {
   margin: 0% 5% 0% 5%;
   text-align: center;
+  width: 70vw;
+  margin: 0 auto;
 }
 
 .TwirlyPig {
@@ -64,7 +66,7 @@ ul {
 
 .subtleText {
   color: #D1D1D1;
-  font-size: .75em; 
+  font-size: .75em;
 }
 
 
@@ -137,4 +139,13 @@ ul {
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.hogContainer {
+  border: 1px solid red;
+  width: 90vw;
+}
+
+.hidden {
+  display: none;
 }
